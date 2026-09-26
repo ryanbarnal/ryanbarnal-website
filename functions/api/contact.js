@@ -1,0 +1,1 @@
+export async function onRequestPost(context){const data=await context.request.formData();return new Response(JSON.stringify({success:true,name:data.get("name")}),{headers:{"Content-Type":"application/json"}})}
