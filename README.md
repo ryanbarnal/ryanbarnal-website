@@ -1,0 +1,1 @@
+Deploy to Cloudflare Pages. Build command: npm run build. Output directory: dist. Connect GitHub repository to Cloudflare Pages and deploy.
